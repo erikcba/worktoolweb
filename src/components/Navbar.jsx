@@ -15,6 +15,9 @@ const Navbar = () => {
                         Inicio
                     </a>
                     <a href='#' className='hover:text-amber-300 hover:scale-105 transition-all flex items-center ease-in-out h-full' >
+                        Nosotros
+                    </a>
+                    <a href='#' className='hover:text-amber-300 hover:scale-105 transition-all flex items-center ease-in-out h-full' >
                         Nuestros Servicios
                     </a>
                     <a href='#' className='hover:text-amber-300 hover:scale-105 transition-all flex items-center ease-in-out h-full'>
