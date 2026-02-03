@@ -10,7 +10,7 @@ const Navbar = () => {
                         <img src={logo} alt="Logo WorkTool" className='w-32 h-auto' />
                     </a>
                 </div>
-                <ul className='text-white h-32 flex-row items-center justify-center flex gap-8 font-medium uppercase'>
+                <ul className='text-white h-32 flex-row items-center justify-center hidden sm:flex gap-8 font-medium uppercase'>
                     <a href='#' className='hover:text-amber-300 hover:scale-105 transition-all flex items-center ease-in-out h-full' >
                         Inicio
                     </a>
