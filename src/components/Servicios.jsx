@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ServiciosCard from './ServiciosCard'
 
 const servicios = [
@@ -32,6 +32,9 @@ const servicios = [
 ]
 
 const Servicios = () => {
+
+    const [activeIndex, setActiveIndex] = useState(null)
+
     return (
         <section className=' bg-zinc-800 py-20'>
             <div className=''>
@@ -43,13 +46,16 @@ const Servicios = () => {
                         Soluciones <span className='text-yellow-300'>integrales</span> <br /> para tu negocio
                     </h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 gap-8 px-10 md:px-20'>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-0 container mx-auto mt-12">
                     {servicios.map((servicio, index) => (
                         <ServiciosCard
                             key={index}
                             title={servicio.title}
-                            description={servicio.description}
                             list={servicio.list}
+                            // La tarjeta está abierta si su índice coincide con el estado
+                            isOpen={activeIndex === index}
+                            // Al hacer clic, si ya estaba abierta ponemos null, si no, su índice
+                            onClick={() => setActiveIndex(activeIndex === index ? null : index)}
                         />
                     ))}
                 </div>

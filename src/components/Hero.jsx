@@ -18,10 +18,10 @@ const Hero = () => {
                     En WorkTool, nos especializamos en brindar soluciones logísticas promocionales personalizadas que impulsan el éxito de tus campañas de marketing.
                 </p>
                 <div className='flex flex-col md:flex-row items-center justify-start'>
-                    <button className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                    <button className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 active:bg-yellow-300 sm:hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Ver Servicios
                     </button>
-                    <button className='mt-8 bg-yellow-300 border-2 border-yellow-300 hover:border-yellow-400 hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                    <button className='mt-8 bg-yellow-300 border-2 border-yellow-300 active:bg-border-400 sm:hover:border-yellow-400 active:bg-yellow-400 sm:hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Contáctanos
                     </button>
                 </div>

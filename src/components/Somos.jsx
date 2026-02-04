@@ -21,7 +21,7 @@ const features = [
 ]
 const Somos = () => {
     return (
-        <section id='nosotros' className=' bg-zinc-950 pb-10'>
+        <section id='nosotros' className=' bg-zinc-950'>
             <div className='container mx-auto flex flex-col md:flex-row items-center justify-center relative -top-20'>
                 {features.map((feature, index) => (
                     <NosotrosCard
@@ -32,7 +32,7 @@ const Somos = () => {
                     />
                 ))}
             </div>
-            <div className='container mx-auto flex flex-col items-center justify-center py-12'>
+            <div className='container mx-auto flex flex-col items-center justify-center py-0 md:py-12'>
                 <div className='flex flex-col items-center justify-center gap-4'>
                     <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>Sobre nosotros</p>
                     <h1 className='text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>

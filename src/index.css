@@ -13,10 +13,6 @@
     flex-shrink: 0;
 }
 
-.card:hover .title {
-    transform: translateY(-160px);
-    color: rgba(34, 40, 47, 1);
-}
 
 
 .card:hover .description {
@@ -25,6 +21,15 @@
     transform: translateY(0);
 }
 
+.card.is-open .title {
+    transform: translateY(-160px);
+    color: rgba(34, 40, 47, 1);
+}
+
+.card.is-open .description {
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (max-width: 400px) {
     .card {
