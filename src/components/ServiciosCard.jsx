@@ -9,7 +9,7 @@ const ServiciosCard = ({ title, list, isOpen, onClick }) => {
         >
             <div className="flex flex-col justify-center h-full p-6 sm:p-10">
                 <p
-                    className={`title font-semibold text-2xl md:text-3xl transition-all duration-500 flex flex-col items-start gap-4
+                    className={`title font-semibold uppercase text-2xl md:text-3xl transition-all duration-500 flex flex-col items-start gap-4
                         ${isOpen 
                             ? 'text-zinc-800 -translate-y-24' 
                             : 'text-zinc-100 group-hover:text-zinc-800 group-hover:-translate-y-24'
