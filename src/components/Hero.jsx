@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='h-[calc(100vh-128px)] relative w-full flex items-center justify-center'>
             <div className='bg-linear-to-r from-black to-black/0 h-full w-full absolute '>
             </div>
-            <div className='container px-6 xl:px-0 mx-auto absolute h-full flex flex-col items-start justify-center' >
+            <div className='container px-6 xl:px-0 pt-32 md:pt-0 mx-auto absolute h-full flex flex-col items-start justify-start md:justify-center' >
                 <h4 className='uppercase text-yellow-300 font-medium text-center'>
                     Logistica promocional
                 </h4>
@@ -17,8 +17,8 @@ const Hero = () => {
                 <p className='text-white text-left mt-4 max-w-2xl text-lg md:text-xl '>
                     En WorkTool, nos especializamos en brindar soluciones logísticas promocionales personalizadas que impulsan el éxito de tus campañas de marketing.
                 </p>
-                <div>
-                    <button className='mt-8 mr-4 bg-transparent border-2 border-yellow-300 hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                <div className='flex flex-col md:flex-row items-center justify-start'>
+                    <button className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Ver Servicios
                     </button>
                     <button className='mt-8 bg-yellow-300 border-2 border-yellow-300 hover:border-yellow-400 hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>

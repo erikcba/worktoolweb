@@ -43,7 +43,7 @@ const Servicios = () => {
                         Soluciones <span className='text-yellow-300'>integrales</span> <br /> para tu negocio
                     </h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 gap-8 px-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 gap-8 px-10 md:px-20'>
                     {servicios.map((servicio, index) => (
                         <ServiciosCard
                             key={index}

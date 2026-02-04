@@ -4,7 +4,7 @@ import logo from '../assets/logo-work-tool.png'
 const Navbar = () => {
     return (
         <nav className='h-32 bg-black w-full'>
-            <div className='container mx-auto flex flex-row items-center justify-between w-full h-full'>
+            <div className='container mx-auto flex flex-row items-center justify-between w-full h-full px-6 md:px-0'>
                 <div className='w-1/2 h-full flex items-center'>
                     <a href="#">
                         <img src={logo} alt="Logo WorkTool" className='w-32 h-auto' />

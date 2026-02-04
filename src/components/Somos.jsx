@@ -39,11 +39,11 @@ const Somos = () => {
                         Somos <span className='text-yellow-300'>WorkTool</span>
                     </h1>
                 </div>
-                <div className='flex flex-col md:flex-row items-center justify-center py-20'>
-                    <div className='w-1/2 flex items-center justify-center'>
+                <div className='flex flex-col md:flex-row items-center justify-center px-6 md:px-0 py-14 md:py-20'>
+                    <div className='w-full md:w-1/2 flex items-center justify-center'>
                         <img src={imgSomos1} alt="Imagen de WorkTool" className="w-2/3 h-auto self-baseline" />
                     </div>
-                    <p className='text-left text-zinc-300 font-normal text-xl leading-loose mt-4 w-1/2 pr-14'>
+                    <p className='text-left text-zinc-300 font-normal text-xl leading-loose mt-4 w-full md:w-1/2 md:pr-14'>
                         Somos una <span className='text-yellow-300'>agencia integral</span> dedicada a brindar servicios a empresas en todo el país.
                         Con sede en argentina, nuestra empresa de tipología modular se caracteriza por la capacidad de adaptar su estructura en base a las necesidades del cliente. <br />
                         Estamos convencidos de que la mejor manera de lograr un objetivo es el <span className='text-yellow-300'>trabajo en equipo</span>, es por ello que afrontamos los trabajos como desafíos propios, integrando al cliente en los procesos para lograr el objetivo deseado.
