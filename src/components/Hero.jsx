@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='bg-linear-to-r from-black to-black/0 h-full w-full absolute '>
             </div>
             <div className='container px-6 xl:px-0 mx-auto absolute h-full flex flex-col items-start justify-center' >
-                <h4 className='uppercase text-amber-300 font-medium text-center'>
+                <h4 className='uppercase text-yellow-300 font-medium text-center'>
                     Logistica promocional
                 </h4>
                 <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold text-left font-gabarito uppercase text-white'>
@@ -18,10 +18,10 @@ const Hero = () => {
                     En WorkTool, nos especializamos en brindar soluciones logísticas promocionales personalizadas que impulsan el éxito de tus campañas de marketing.
                 </p>
                 <div>
-                    <button className='mt-8 mr-4 bg-transparent border-2 border-amber-300 hover:bg-amber-300 text-white font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                    <button className='mt-8 mr-4 bg-transparent border-2 border-yellow-300 hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Ver Servicios
                     </button>
-                    <button className='mt-8 bg-amber-300 border-2 border-amber-300 hover:border-amber-400 hover:bg-amber-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                    <button className='mt-8 bg-yellow-300 border-2 border-yellow-300 hover:border-yellow-400 hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Contáctanos
                     </button>
                 </div>

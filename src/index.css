@@ -4,3 +4,23 @@
 .font-gabarito {
     font-family: 'Gabarito', sans-serif;
 }
+
+.card{
+    height: 456px;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+.card:hover .title {
+    transform: translateY(-160px);
+    color: rgba(34, 40, 47, 1);
+}
+
+
+.card:hover .description {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
+}
