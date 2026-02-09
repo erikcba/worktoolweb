@@ -13,9 +13,7 @@
     flex-shrink: 0;
 }
 
-
-
-.card:hover .description {
+/* .card:hover .description {
     display: flex;
     flex-direction: column;
     transform: translateY(0);
@@ -29,7 +27,7 @@
 .card.is-open .description {
     display: flex;
     flex-direction: column;
-}
+} */
 
 @keyframes marquee-left {
   0% { transform: translateX(0); }
@@ -54,7 +52,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .card {
         height: 380px;
     }
@@ -62,4 +60,4 @@
         transform: translateY(-150px);
         color: rgba(34, 40, 47, 1);
     }
-}
+} */
