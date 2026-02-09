@@ -31,6 +31,29 @@
     flex-direction: column;
 }
 
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.33%); } /* Cambiamos a 33% porque renderizaremos 3 veces */
+}
+
+@keyframes marquee-right {
+  0% { transform: translateX(-33.33%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-marquee-left {
+  display: flex;
+  width: max-content;
+  animation: marquee-left 30s linear infinite;
+}
+
+.animate-marquee-right {
+  display: flex;
+  width: max-content;
+  animation: marquee-right 30s linear infinite;
+}
+
+
 @media screen and (max-width: 400px) {
     .card {
         height: 380px;

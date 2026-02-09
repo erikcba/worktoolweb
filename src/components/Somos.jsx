@@ -22,7 +22,7 @@ const features = [
 const Somos = () => {
     return (
         <section id='nosotros' className=' bg-zinc-950'>
-            <div className='container mx-auto flex flex-col md:flex-row items-center justify-center relative -top-20'>
+            <div className='container mx-auto flex flex-col gap-4 px-6 sm:px-0 md:flex-row items-center justify-center relative -top-20'>
                 {features.map((feature, index) => (
                     <NosotrosCard
                         key={index}

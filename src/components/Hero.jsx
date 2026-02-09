@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='h-[calc(100vh-128px)] relative w-full flex items-center justify-center'>
             <div className='bg-linear-to-r from-black to-black/0 h-full w-full absolute '>
             </div>
-            <div className='container px-6 xl:px-0 pt-32 md:pt-0 mx-auto absolute h-full flex flex-col items-start justify-start md:justify-center' >
+            <div className='container px-6 xl:px-0 pt-20 md:pt-0 mx-auto absolute h-full flex flex-col items-start justify-start md:justify-center' >
                 <h4 className='uppercase text-yellow-300 font-medium text-center'>
                     Logistica promocional
                 </h4>
