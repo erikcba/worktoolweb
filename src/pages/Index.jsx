@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Somos from '../components/Somos'
 import Servicios from '../components/Servicios'
 import Logos from '../components/Logos'
+import Footer from '../components/Footer'
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Somos/>
       <Servicios/>
       <Logos/>
+      <Footer/>
     </div>
   )
 }
