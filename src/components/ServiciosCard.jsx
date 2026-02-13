@@ -7,19 +7,19 @@ const ServiciosCard = ({ title, list, isOpen, onClick }) => {
             className={`group card relative border-2 w-full border-zinc-100 transition-all duration-500 select-none overflow-hidden
                 ${isOpen ? 'bg-zinc-100' : 'bg-transparent hover:bg-zinc-100'}`}
         >
-            <div className="flex flex-col justify-center h-full p-6 sm:p-10">
+            <div className="flex flex-col justify-center h-full p-6 sm:p-8">
                 <p
                     className={`title font-semibold uppercase text-2xl md:text-3xl transition-all duration-500 flex flex-col items-start gap-4
                         ${isOpen 
-                            ? 'text-zinc-800 sm:-translate-y-24 -translate-y-12' 
-                            : 'text-zinc-100 group-hover:text-zinc-800 group-hover:-translate-y-24'
+                            ? 'text-zinc-800 sm:-translate-y-32 -translate-y-12' 
+                            : 'text-zinc-100 group-hover:text-zinc-800 group-hover:-translate-y-32'
                         }`}
                 >
                     {title}
                 </p>
                 
                 <div
-                    className={`description absolute left-0 right-0 px-6 sm:px-10 transition-all duration-500 bottom-10
+                    className={`description absolute left-0 right-0 px-6 sm:px-8 transition-all duration-500 bottom-10
                         ${isOpen 
                             ? 'opacity-100 translate-y-0 visible' 
                             : 'opacity-0 translate-y-10 invisible group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible'

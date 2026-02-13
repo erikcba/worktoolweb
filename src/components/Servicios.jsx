@@ -7,7 +7,7 @@ const servicios = [
         title: "Marketing y Logística Promocional",
         description: "Diseñamos, desarrollamos e implementamos acciones promocionales en gran parte del país. Vamos desde lo más simple que es proveer de promotoras, hasta la ejecución completa de una promoción, con producción de Stand, uniformes, merchandising. mecánica de juegos, etc..",
         icon: "",
-        list: ""
+        list: "Diseñamos, desarrollamos e implementamos acciones promocionales en gran parte del país. Vamos desde lo más simple que es proveer de promotoras, hasta la ejecución completa de una promoción, con producción de Stand, uniformes, merchandising. mecánica de juegos, etc.."
     },
     {
         title: "Trade",

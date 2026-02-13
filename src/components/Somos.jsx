@@ -1,6 +1,7 @@
 import React from 'react'
 import NosotrosCard from './NosotrosCard'
 import imgSomos1 from '../assets/promotoras-worktool.jpg'
+import ContadorClientes from './ContadorClientes'
 
 const features = [
     {
@@ -48,6 +49,11 @@ const Somos = () => {
                         Con sede en argentina, nuestra empresa de tipología modular se caracteriza por la capacidad de adaptar su estructura en base a las necesidades del cliente. <br />
                         Estamos convencidos de que la mejor manera de lograr un objetivo es el <span className='text-yellow-300'>trabajo en equipo</span>, es por ello que afrontamos los trabajos como desafíos propios, integrando al cliente en los procesos para lograr el objetivo deseado.
                     </p>
+                </div>
+                <div className='flex flex-row items-center justify-evenly w-full border-t border-zinc-600'>
+                    <ContadorClientes limit={2000} title="Clientes Satisfechos" />
+                    <ContadorClientes limit={25000} title="Eventos realizados" />
+                    <ContadorClientes limit={15} title="Años de experiencia" />
                 </div>
             </div>
         </section>

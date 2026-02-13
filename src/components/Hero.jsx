@@ -8,14 +8,14 @@ const Hero = () => {
             </div>
             <div className='container px-6 xl:px-0 pt-20 md:pt-0 mx-auto absolute h-full flex flex-col items-start justify-start md:justify-center' >
                 <h4 className='uppercase text-yellow-300 font-medium text-center'>
-                    Logistica promocional
+                    Lográ resultados 
                 </h4>
                 <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold text-left font-gabarito uppercase text-white'>
                     Marketing <br />
-                    promocional
+                    Integral
                 </h1>
                 <p className='text-white text-left mt-4 max-w-2xl text-lg md:text-xl '>
-                    En WorkTool, nos especializamos en brindar soluciones logísticas promocionales personalizadas que impulsan el éxito de tus campañas de marketing.
+                    Somos una agencia de marketing integral, especializada en construir marcas sólidas, posicionadas y rentables en todo el país.
                 </p>
                 <div className='flex flex-col md:flex-row items-center justify-start'>
                     <button className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 active:bg-yellow-300 sm:hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
