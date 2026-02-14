@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ServiciosCard from './ServiciosCard'
+import ServiciosCard from '../components/ServiciosCard'
 
 const servicios = [
 

@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Somos from '../components/Somos'
-import Servicios from '../components/Servicios'
-import Logos from '../components/Logos'
+import Hero from '../sections/Hero'
+import Somos from '../sections/Somos'
+import Servicios from '../sections/Servicios'
+import Logos from '../sections/Logos'
 import Footer from '../components/Footer'
+import DigitalSection from '../sections/DigitalSection'
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Hero/>
       <Somos/>
       <Servicios/>
+      <DigitalSection/>
       <Logos/>
       <Footer/>
     </div>
