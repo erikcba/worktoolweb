@@ -10,11 +10,11 @@ const Logos= () => {
 
     return (
         <section className="bg-zinc-950 py-20 overflow-hidden">
-            <div className="container mx-auto text-center mb-12">
+            <div className="container mx-auto text-center mb-12 px-8 md:px-0">
                 <p className="text-yellow-400 text-sm uppercase font-medium font-gabarito">
                     Nuestros Aliados
                 </p>
-                <h2 className="text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white leading-snug">
+                <h2 className="text-left md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white leading-snug">
                     Clientes que nos <span className="text-amber-300">eligieron</span>
                 </h2>
             </div>

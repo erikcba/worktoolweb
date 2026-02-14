@@ -42,7 +42,7 @@ const Servicios = () => {
                     <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>
                         Nuestros servicios
                     </p>
-                    <h1 className='text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white leading-snug'>
+                    <h1 className='text-left px-8 md:px-0 md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white leading-snug'>
                         Soluciones <span className='text-yellow-300'>integrales</span> <br /> para tu negocio
                     </h1>
                 </div>

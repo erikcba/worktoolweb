@@ -2,7 +2,7 @@ import React from 'react'
 
 const NosotrosCard = ({imgCard, title, description}) => {
     return (
-        <div className='border-2 border-yellow-300 rounded-sm sm:w-90 w-full h-fit sm:h-72 py-12 sm:pt-8 p-4 bg-zinc-950 transition-all ease-in-out'>
+        <div className=' sm:w-90 w-full h-fit sm:h-72 py-12 sm:pt-8 p-4 bg-zinc-900 transition-all ease-in-out shadow-lg'>
             <div className='flex flex-col items-center justify-start gap-4 2xl:gap-8 h-full'>
                 <div>
                     {imgCard}
