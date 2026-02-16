@@ -64,7 +64,7 @@ const DigitalSection = () => {
             </div>
             <div className='bg-zinc-950'>
 
-                <div className='container mx-auto flex flex-col px-8 xl:px-0 xl:flex-row gap-20 items-center justify-center py-20'>
+                <div className='container mx-auto flex flex-col px-6 xl:px-0 xl:flex-row gap-20 items-center justify-center py-20'>
                     <div className='w-full xl:w-1/2'>
                         <h1 className='text-left font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
                             Una marca fuerte <br /> <span className='text-yellow-300'>no se improvisa</span>
@@ -82,8 +82,8 @@ const DigitalSection = () => {
                         </div>
                     </div>
                     <div className='w-full xl:w-1/2 flex flex-col gap-4 items-center justify-center'>
-                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
-                            <div className='flex items-center justify-center h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
+                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
+                            <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgba(255, 212, 59, 1)" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z" /></svg>
                                 </div>
@@ -92,8 +92,8 @@ const DigitalSection = () => {
                                 Construccion de identidad y coherencia visual
                             </p>
                         </div>
-                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
-                            <div className='flex items-center justify-center h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
+                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
+                            <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgba(255, 212, 59, 1)" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z" /></svg>
                                 </div>
@@ -102,8 +102,8 @@ const DigitalSection = () => {
                                 Estrategia global y planificacion a largo plazo
                             </p>
                         </div>
-                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
-                            <div className='flex items-center justify-center h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
+                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
+                            <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgba(255, 212, 59, 1)" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z" /></svg>
                                 </div>
@@ -112,8 +112,8 @@ const DigitalSection = () => {
                                 Optimizacion inteligente de inversion publicitaria
                             </p>
                         </div>
-                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
-                            <div className='flex items-center justify-center h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
+                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
+                            <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgba(255, 212, 59, 1)" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z" /></svg>
                                 </div>
@@ -122,8 +122,8 @@ const DigitalSection = () => {
                                 Analisis de metricas y decisiones basadas en datos
                             </p>
                         </div>
-                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
-                            <div className='flex items-center justify-center h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
+                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
+                            <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgba(255, 212, 59, 1)" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z" /></svg>
                                 </div>
@@ -132,8 +132,8 @@ const DigitalSection = () => {
                                 Equipo especializado en cada area
                             </p>
                         </div>
-                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
-                            <div className='flex items-center justify-center h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
+                        <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
+                            <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgba(255, 212, 59, 1)" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z" /></svg>
                                 </div>

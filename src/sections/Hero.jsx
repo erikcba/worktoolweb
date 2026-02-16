@@ -18,9 +18,9 @@ const Hero = () => {
                     Somos una agencia de marketing integral, especializada en construir marcas sólidas, posicionadas y rentables en todo el país.
                 </p>
                 <div className='flex flex-col md:flex-row items-center justify-start'>
-                    <button className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 active:bg-yellow-300 sm:hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                    <a href='#servicios' className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 active:bg-yellow-300 sm:hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Ver Servicios
-                    </button>
+                    </a>
                     <a href="#contacto" className='mt-8 bg-yellow-300 border-2 border-yellow-300 active:bg-border-400 sm:hover:border-yellow-400 active:bg-yellow-400 sm:hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Contáctanos
                     </a>
