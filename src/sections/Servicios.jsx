@@ -36,7 +36,7 @@ const Servicios = () => {
     const [activeIndex, setActiveIndex] = useState(null)
 
     return (
-        <section className=' bg-zinc-800 py-20'>
+        <section id="servicios" className=' bg-zinc-800 py-20'>
             <div className=''>
                 <div className=' container mx-auto flex flex-col items-center justify-center gap-2'>
                     <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>

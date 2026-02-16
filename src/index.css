@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 @import "tailwindcss";
 
+*{
+    scroll-behavior: smooth;
+}
+
 .font-gabarito {
     font-family: 'Gabarito', sans-serif;
 }
@@ -12,22 +16,6 @@
     scroll-snap-align: start;
     flex-shrink: 0;
 }
-
-/* .card:hover .description {
-    display: flex;
-    flex-direction: column;
-    transform: translateY(0);
-}
-
-.card.is-open .title {
-    transform: translateY(-160px);
-    color: rgba(34, 40, 47, 1);
-}
-
-.card.is-open .description {
-    display: flex;
-    flex-direction: column;
-} */
 
 @keyframes marquee-left {
   0% { transform: translateX(0); }

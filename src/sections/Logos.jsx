@@ -9,7 +9,7 @@ const Logos= () => {
     const marcasFila2 = [...fila2, ...fila2, ...fila2];
 
     return (
-        <section className="bg-zinc-950 py-20 overflow-hidden">
+        <section className="bg-zinc-800 py-20 overflow-hidden">
             <div className="container mx-auto text-center mb-12 px-8 md:px-0">
                 <p className="text-yellow-400 text-sm uppercase font-medium font-gabarito">
                     Nuestros Aliados
@@ -24,7 +24,7 @@ const Logos= () => {
                 <div className="flex overflow-hidden">
                     <div className="animate-marquee-left">
                         {marcasFila1.map((marca, index) => (
-                            <div key={`f1-${index}`} className="mx-4 select-none hover:text-white hover:border-amber-300 transition-colors text-zinc-400 text-lg font-medium bg-zinc-900 border border-zinc-800 px-10 py-4 rounded-xl whitespace-nowrap">
+                            <div key={`f1-${index}`} className="mx-4 select-none hover:text-white hover:border-amber-300 transition-colors text-zinc-400 text-lg font-medium bg-zinc-900 border border-zinc-700 px-10 py-4 rounded-xl whitespace-nowrap">
                                 {marca}
                             </div>
                         ))}
@@ -35,7 +35,7 @@ const Logos= () => {
                 <div className="flex overflow-hidden">
                     <div className="animate-marquee-right">
                         {marcasFila2.map((marca, index) => (
-                            <div key={`f2-${index}`} className="mx-4 select-none hover:text-white hover:border-amber-300 transition-colors text-zinc-400 text-lg font-medium bg-zinc-900 border border-zinc-800 px-10 py-4 rounded-xl whitespace-nowrap">
+                            <div key={`f2-${index}`} className="mx-4 select-none hover:text-white hover:border-amber-300 transition-colors text-zinc-400 text-lg font-medium bg-zinc-900 border border-zinc-700 px-10 py-4 rounded-xl whitespace-nowrap">
                                 {marca}
                             </div>
                         ))}

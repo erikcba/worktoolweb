@@ -21,9 +21,9 @@ const Hero = () => {
                     <button className=' mt-8 md:mr-4 bg-transparent border-2 border-yellow-300 active:bg-yellow-300 sm:hover:bg-yellow-300 text-white hover:text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Ver Servicios
                     </button>
-                    <button className='mt-8 bg-yellow-300 border-2 border-yellow-300 active:bg-border-400 sm:hover:border-yellow-400 active:bg-yellow-400 sm:hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
+                    <a href="#contacto" className='mt-8 bg-yellow-300 border-2 border-yellow-300 active:bg-border-400 sm:hover:border-yellow-400 active:bg-yellow-400 sm:hover:bg-yellow-400 text-black font-semibold px-6 py-3 uppercase transition-all ease-in-out hover:cursor-pointer'>
                         Contáctanos
-                    </button>
+                    </a>
                 </div>
             </div>
             <img src={heroImage} alt="Hero Image" className="w-full h-full object-cover object-[50%_42%]  " />

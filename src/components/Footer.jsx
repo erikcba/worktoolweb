@@ -4,7 +4,7 @@ import Form from './Form'
 
 const Footer = () => {
     return (
-        <section className='bg-zinc-950 py-12 '>
+        <section id='contacto' className='bg-zinc-800 py-12 '>
 
             <div className='container mx-auto border-t border-zinc-600 px-6 xl:px-0'>
                 <div className='flex lg:flex-row flex-col py-12 gap-10'>
