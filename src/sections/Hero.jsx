@@ -7,14 +7,17 @@ const Hero = () => {
             <div className='bg-linear-to-r from-black to-black/0 h-full w-full absolute '>
             </div>
             <div className='container px-6 xl:px-0 pt-20 md:pt-0 mx-auto absolute h-full flex flex-col items-start justify-start md:justify-center' >
-                <h4 className='uppercase text-yellow-300 font-medium text-center'>
+                <h4 className='uppercase text-yellow-300 font-medium text-center selection:bg-amber-300 selection:text-black'>
                     Lográ resultados 
                 </h4>
-                <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold text-left font-gabarito uppercase text-white'>
+                <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold text-left font-gabarito uppercase text-white selection:bg-amber-300 selection:text-black '>
                     Marketing <br />
+                    <span className='bg-amber-300 text-black '>
+
                     Integral
+                    </span>
                 </h1>
-                <p className='text-white text-left mt-4 max-w-2xl text-lg md:text-xl '>
+                <p className='text-white text-left mt-4 max-w-2xl text-lg md:text-xl selection:bg-amber-300 selection:text-black'>
                     Somos una agencia de marketing integral, especializada en construir marcas sólidas, posicionadas y rentables en todo el país.
                 </p>
                 <div className='flex flex-col md:flex-row items-center justify-start'>

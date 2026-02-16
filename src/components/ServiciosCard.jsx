@@ -11,8 +11,8 @@ const ServiciosCard = ({ title, list, isOpen, onClick }) => {
             className={`group card relative border-2 w-full border-zinc-100 transition-all duration-500 cursor-pointer overflow-hidden
                 ${isOpen ? 'bg-zinc-100' : 'bg-transparent hover:bg-zinc-100'}`}
         >
-            <div className="flex flex-col justify-center h-full p-6 sm:p-10">
-                <p className={`title font-semibold text-2xl md:text-3xl transition-all duration-500 flex flex-col items-start gap-4
+            <div className="flex flex-col selection:bg-amber-300 selection:text-black justify-center h-full p-6 sm:p-10">
+                <p className={`title font-semibold  text-2xl md:text-3xl transition-all duration-500 flex flex-col items-start gap-4
                         ${isOpen 
                             ? 'text-zinc-800 -translate-y-28' 
                             : 'text-zinc-100 group-hover:text-zinc-800 group-hover:-translate-y-28'

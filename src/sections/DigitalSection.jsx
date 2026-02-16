@@ -48,7 +48,7 @@ const DigitalSection = () => {
     return (
         <section className=' bg-zinc-950' >
             <div className='container mx-auto flex flex-col items-center justify-center py-20'>
-                <div className='flex flex-col items-center justify-center gap-4 px-8 md:px-0'>
+                <div className='flex flex-col items-center justify-center selection:bg-amber-300 selection:text-black gap-4 px-8 md:px-0'>
                     <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>Nuestro compromiso</p>
                     <h1 className='text-left md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
                         Construimos marcas <br />  <span className='text-yellow-300'>solidas, posicionadas y rentables</span>
@@ -66,13 +66,13 @@ const DigitalSection = () => {
 
                 <div className='container mx-auto flex flex-col px-6 xl:px-0 xl:flex-row gap-20 items-center justify-center py-20'>
                     <div className='w-full xl:w-1/2'>
-                        <h1 className='text-left font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
+                        <h1 className='text-left selection:bg-amber-300 selection:text-black font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
                             Una marca fuerte <br /> <span className='text-yellow-300'>no se improvisa</span>
                         </h1>
-                        <p className='text-left text-zinc-300 mt-4 text-xl'>
+                        <p className='text-left text-zinc-300 selection:bg-amber-300 selection:text-black mt-4 text-xl'>
                             Se diseña, se posiciona y se escala con estrategia. <br /> Una agencia aporta la vision global, la experiencia y las herramientas que tu marca necesita para crecer.
                         </p>
-                        <div className='bg-yellow-300/80 p-4 mt-6'>
+                        <div className='bg-yellow-300/80 selection:bg-amber-300 selection:text-black p-4 mt-6'>
                             <p className='text-zinc-900/70 font-medium text-lg'>
                                 No gestionamos redes.
                             </p>
@@ -81,7 +81,7 @@ const DigitalSection = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='w-full xl:w-1/2 flex flex-col gap-4 items-center justify-center'>
+                    <div className='w-full xl:w-1/2 flex flex-col gap-4 items-center justify-center '>
                         <div className='group ease-in-out bg-zinc-900 border border-zinc-900 hover:border-yellow-400/20 w-full flex flex-row items-center justify-start gap-4 p-3 sm:p-6 select-none shadow-md hover:shadow-lg transition-all duration-300'>
                             <div className='flex items-center justify-center shrink-0 h-12 w-12 bg-yellow-400/10 group-hover:bg-yellow-400/50 border border-yellow-400/20 rounded-full transition-all duration-500 ease-in-out'>
                                 <div className='w-3/5'>

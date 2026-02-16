@@ -3,7 +3,7 @@ import logo from '../assets/logo-work-tool.png'
 
 const Form = () => {
     return (
-        <form id="form" action="/send-email" method="POST" className="max-w-7xl mx-auto lg:px-4">
+        <form id="form" action="/send-email" method="POST" className="max-w-7xl selection:bg-amber-300 selection:text-black mx-auto lg:px-4">
             {/* Sección: ¿En qué te ayudamos? */}
             <div className="pb-4 md:mb-20 mb-8">
                 <p className="pb-8 text-3xl font-normal text-zinc-100">¿En qué te ayudamos?</p>

@@ -8,7 +8,7 @@ const Footer = () => {
 
             <div className='container mx-auto border-t border-zinc-600 px-6 xl:px-0'>
                 <div className='flex lg:flex-row flex-col py-12 gap-10'>
-                    <div className='flex flex-col lg:w-1/2 w-full'>
+                    <div className='flex flex-col selection:bg-amber-300 selection:text-black lg:w-1/2 w-full'>
                         <h2 className='text-left font-gabarito uppercase text-4xl md:text-5xl font-bold text-white leading-snug'>
                             Si queres impulsar tu marca, <br /> <span className='text-amber-300'>contactanos</span>
                         </h2>
