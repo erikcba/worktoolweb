@@ -47,89 +47,82 @@ const contenido = [
 const DigitalSection = () => {
     return (
         <section className=' bg-zinc-950' >
-            <div className='container mx-auto flex flex-col items-center justify-center pb-20'>
-                <div className='flex flex-col items-center justify-center selection:bg-amber-300 selection:text-black gap-4 px-8 md:px-0'>
-                    <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>Nuestro compromiso</p>
+            <div className='container mx-auto flex flex-col items-center justify-center pt-40 md:py-0 md:pb-20'>
+                <div className='flex flex-col items-center justify-center selection:bg-amber-300 selection:text-black gap-4 px-6 md:px-0'>
+                    <p className='text-yellow-400 text-sm uppercase font-medium self-start md:self-center font-gabarito'>Nuestro compromiso</p>
                     <h1 className='text-left md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
                         Construimos marcas <br />  <span className='text-yellow-300'>solidas, posicionadas y rentables</span>
                     </h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 px-6 md:px-0'>
+                {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 px-6 md:px-0'>
                     {
                         contenido.map((item, index) => (
                             <DigitalCard key={index} icon={item.icon} title={item.title} description={item.description} />
                         ))
                     }
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] px-6 md:px-0 py-20">
-                    {/* Tarjeta Grande (Ocupa 2 columnas) */}
-                    <div className="group md:col-span-2 md:row-span-2 bg-zinc-900  p-8 border border-white/5 hover:bg-yellow-400 transition-all">
-                        <p className="text-yellow-500 group-hover:text-zinc-900 mb-4" >
-                            01 / Servicios Digitales
-                        </p>
-                        <h3 className="text-3xl md:text-7xl font-bold md:font-black italic text-yellow-300 group-hover:text-zinc-800 uppercase ">
+                </div> */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[200px] px-6 md:px-0 pt-20">
+
+                    {/* 01 - Branding (Desktop: Gris | Mobile: Gris) */}
+                    <div className="group md:col-span-2 md:row-span-2 p-8 border border-white/5 transition-all bg-zinc-900 hover:bg-yellow-400">
+                        <p className="mb-4 text-yellow-500 group-hover:text-zinc-900">01 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-7xl font-bold md:font-black italic uppercase text-yellow-300 group-hover:text-zinc-800">
                             Branding e Identidad Visual
                         </h3>
                     </div>
 
-                    {/* Tarjeta Mediana */}
-                    <div className="group md:col-span-2 bg-zinc-900  p-6 border border-white/5 hover:bg-yellow-400 transition-all">
-                        <p className="text-yellow-500 mb-4 group-hover:text-zinc-900" >
-                            02 / Servicios Digitales
-                        </p>
-                        <h3 className="text-2xl md:text-4xl font-bold text-yellow-300 group-hover:text-zinc-800 uppercase italic">
+                    {/* 02 - Audiovisual (Desktop: Gris | Mobile: Amarillo) */}
+                    <div className="group md:col-span-2 p-6 border border-white/5 transition-all bg-yellow-400 md:bg-zinc-900 hover:bg-zinc-900 md:hover:bg-yellow-400">
+                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">02 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-4xl font-bold italic uppercase text-zinc-800 md:text-yellow-300 group-hover:text-yellow-400 md:group-hover:text-zinc-800">
                             Producción Audiovisual
                         </h3>
                     </div>
 
-                    {/* Tarjeta Pequeña */}
-                    <div className="group md:col-span-1 bg-yellow-400  p-6 border border-white/5 hover:bg-zinc-900 transition-all ">
-                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
-                            03 / Servicios Digitales
-                        </p>
-                        <h3 className="text-2xl font-bold italic text-zinc-800 group-hover:text-yellow-400 uppercase ">
+                    {/* 03 - Apps (Desktop: Amarillo | Mobile: Gris) */}
+                    <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-zinc-900 md:bg-yellow-400 hover:bg-yellow-400 md:hover:bg-zinc-900">
+                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">03 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-yellow-300 md:text-zinc-800 group-hover:text-zinc-800 md:group-hover:text-yellow-400">
                             Creación de apps personalizadas
                         </h3>
                     </div>
-                    <div className="group md:col-span-1 bg-zinc-900  p-6 border border-white/5 hover:bg-yellow-400 transition-all">
-                        <p className="text-yellow-500 group-hover:text-zinc-900 mb-4" >
-                            03 / Servicios Digitales
-                        </p>
-                        <h3 className="text-2xl font-bold italic text-yellow-300 group-hover:text-zinc-800 uppercase ">
+
+                    {/* 04 - Influencers (Desktop: Gris | Mobile: Amarillo) */}
+                    <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-yellow-400 md:bg-zinc-900 hover:bg-zinc-900 md:hover:bg-yellow-400">
+                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">03 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-zinc-800 md:text-yellow-300 group-hover:text-yellow-400 md:group-hover:text-zinc-800">
                             Gestión de influencers
                         </h3>
                     </div>
-                    <div className="group md:col-span-2 bg-yellow-400  p-6 border border-white/5 hover:bg-zinc-900 transition-all ">
-                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
-                            02 / Servicios Digitales
-                        </p>
-                        <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 group-hover:text-yellow-400 uppercase italic">
+
+                    {/* 05 - Web (Desktop: Amarillo | Mobile: Gris) */}
+                    <div className="group md:col-span-2 p-6 border border-white/5 transition-all bg-zinc-900 md:bg-yellow-400 hover:bg-yellow-400 md:hover:bg-zinc-900">
+                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">02 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-4xl font-bold italic uppercase text-yellow-300 md:text-zinc-800 group-hover:text-zinc-800 md:group-hover:text-yellow-400">
                             Desarrollo Web
                         </h3>
                     </div>
-                    <div className="group md:col-span-2 md:row-span-2 bg-yellow-400  p-8 border border-white/5 hover:bg-zinc-900 transition-all ">
-                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
-                            01 / Servicios Digitales
-                        </p>
-                        <h3 className="text-4xl md:text-8xl font-black italic text-zinc-800 group-hover:text-yellow-400 uppercase ">
+
+                    {/* 06 - Redes (Desktop: Amarillo | Mobile: Amarillo) */}
+                    <div className="group md:col-span-2 md:row-span-2 p-8 border border-white/5 transition-all bg-yellow-400 hover:bg-zinc-900">
+                        <p className="mb-4 text-zinc-900 group-hover:text-yellow-500">01 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-8xl font-black italic uppercase text-zinc-800 group-hover:text-yellow-400">
                             Gestión de redes sociales
                         </h3>
                     </div>
 
-                    {/* Tarjeta Pequeña */}
-                    <div className="group md:col-span-1 bg-yellow-400  p-6 border border-white/5 hover:bg-zinc-900 transition-all ">
-                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
-                            03 / Servicios Digitales
-                        </p>
-                        <h3 className="text-2xl font-bold italic text-zinc-800 group-hover:text-yellow-400 uppercase ">
+                    {/* 07 - Contenido (Desktop: Amarillo | Mobile: Gris) */}
+                    <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-zinc-900 md:bg-yellow-400 hover:bg-yellow-400 md:hover:bg-zinc-900">
+                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">03 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-yellow-300 md:text-zinc-800 group-hover:text-zinc-800 md:group-hover:text-yellow-400">
                             Creación de contenido
                         </h3>
                     </div>
-                    <div className="group md:col-span-1 bg-zinc-900  p-6 border border-white/5 hover:bg-yellow-400 transition-all">
-                        <p className="text-yellow-500 group-hover:text-zinc-900 mb-4" >
-                            03 / Servicios Digitales
-                        </p>
-                        <h3 className="text-2xl font-bold italic text-yellow-300 group-hover:text-zinc-800 uppercase ">
+
+                    {/* 08 - Meta Ads (Desktop: Gris | Mobile: Amarillo) */}
+                    <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-yellow-400 md:bg-zinc-900 hover:bg-zinc-900 md:hover:bg-yellow-400">
+                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">03 / Servicios Digitales</p>
+                        <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-zinc-800 md:text-yellow-300 group-hover:text-yellow-400 md:group-hover:text-zinc-800">
                             Campañas de meta ads
                         </h3>
                     </div>
