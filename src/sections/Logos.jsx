@@ -10,8 +10,8 @@ const Logos= () => {
 
     return (
         <section className="bg-zinc-800 py-20 overflow-hidden">
-            <div className="container mx-auto selection:bg-amber-300 selection:text-black text-center mb-12 px-8 md:px-0">
-                <p className="text-yellow-400 text-sm uppercase font-medium font-gabarito">
+            <div className="container mx-auto flex flex-col selection:bg-amber-300 selection:text-black text-center mb-12 px-6 md:px-0">
+                <p className="text-yellow-400 text-sm self-start md:self-center uppercase font-medium font-gabarito">
                     Nuestros Aliados
                 </p>
                 <h2 className="text-left md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white leading-snug">

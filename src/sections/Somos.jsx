@@ -34,9 +34,9 @@ const Somos = () => {
                 ))}
             </div>
             <div className='container mx-auto flex flex-col items-center justify-center py-0 md:py-12'>
-                <div className='flex flex-col items-center justify-center gap-4 selection:bg-amber-300 selection:text-black'>
-                    <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>Sobre nosotros</p>
-                    <h1 className='text-left md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
+                <div className='flex flex-col w-full px-6 md:px-0 gap-4 selection:bg-amber-300 selection:text-black'>
+                    <p className='text-yellow-400 text-sm uppercase self-start md:self-center font-medium font-gabarito'>Sobre nosotros</p>
+                    <h1 className='text-left md:text-center font-gabarito uppercase self-start md:self-center text-4xl md:text-5xl font-bold text-white'>
                         Somos <span className='text-yellow-300'>WorkTool</span>
                     </h1>
                 </div>
