@@ -47,7 +47,7 @@ const contenido = [
 const DigitalSection = () => {
     return (
         <section className=' bg-zinc-950' >
-            <div className='container mx-auto flex flex-col items-center justify-center py-20'>
+            <div className='container mx-auto flex flex-col items-center justify-center pb-20'>
                 <div className='flex flex-col items-center justify-center selection:bg-amber-300 selection:text-black gap-4 px-8 md:px-0'>
                     <p className='text-yellow-400 text-sm uppercase font-medium font-gabarito'>Nuestro compromiso</p>
                     <h1 className='text-left md:text-center font-gabarito uppercase text-4xl md:text-5xl font-bold text-white'>
@@ -60,6 +60,79 @@ const DigitalSection = () => {
                             <DigitalCard key={index} icon={item.icon} title={item.title} description={item.description} />
                         ))
                     }
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] px-6 md:px-0 py-20">
+                    {/* Tarjeta Grande (Ocupa 2 columnas) */}
+                    <div className="group md:col-span-2 md:row-span-2 bg-zinc-900  p-8 border border-white/5 hover:bg-yellow-400 transition-all">
+                        <p className="text-yellow-500 group-hover:text-zinc-900 mb-4" >
+                            01 / Servicios Digitales
+                        </p>
+                        <h3 className="text-3xl md:text-7xl font-bold md:font-black italic text-yellow-300 group-hover:text-zinc-800 uppercase ">
+                            Branding e Identidad Visual
+                        </h3>
+                    </div>
+
+                    {/* Tarjeta Mediana */}
+                    <div className="group md:col-span-2 bg-zinc-900  p-6 border border-white/5 hover:bg-yellow-400 transition-all">
+                        <p className="text-yellow-500 mb-4 group-hover:text-zinc-900" >
+                            02 / Servicios Digitales
+                        </p>
+                        <h3 className="text-2xl md:text-4xl font-bold text-yellow-300 group-hover:text-zinc-800 uppercase italic">
+                            Producción Audiovisual
+                        </h3>
+                    </div>
+
+                    {/* Tarjeta Pequeña */}
+                    <div className="group md:col-span-1 bg-yellow-400  p-6 border border-white/5 hover:bg-zinc-900 transition-all ">
+                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
+                            03 / Servicios Digitales
+                        </p>
+                        <h3 className="text-2xl font-bold italic text-zinc-800 group-hover:text-yellow-400 uppercase ">
+                            Creación de apps personalizadas
+                        </h3>
+                    </div>
+                    <div className="group md:col-span-1 bg-zinc-900  p-6 border border-white/5 hover:bg-yellow-400 transition-all">
+                        <p className="text-yellow-500 group-hover:text-zinc-900 mb-4" >
+                            03 / Servicios Digitales
+                        </p>
+                        <h3 className="text-2xl font-bold italic text-yellow-300 group-hover:text-zinc-800 uppercase ">
+                            Gestión de influencers
+                        </h3>
+                    </div>
+                    <div className="group md:col-span-2 bg-yellow-400  p-6 border border-white/5 hover:bg-zinc-900 transition-all ">
+                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
+                            02 / Servicios Digitales
+                        </p>
+                        <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 group-hover:text-yellow-400 uppercase italic">
+                            Desarrollo Web
+                        </h3>
+                    </div>
+                    <div className="group md:col-span-2 md:row-span-2 bg-yellow-400  p-8 border border-white/5 hover:bg-zinc-900 transition-all ">
+                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
+                            01 / Servicios Digitales
+                        </p>
+                        <h3 className="text-4xl md:text-8xl font-black italic text-zinc-800 group-hover:text-yellow-400 uppercase ">
+                            Gestión de redes sociales
+                        </h3>
+                    </div>
+
+                    {/* Tarjeta Pequeña */}
+                    <div className="group md:col-span-1 bg-yellow-400  p-6 border border-white/5 hover:bg-zinc-900 transition-all ">
+                        <p className="text-zinc-900 group-hover:text-yellow-500 mb-4" >
+                            03 / Servicios Digitales
+                        </p>
+                        <h3 className="text-2xl font-bold italic text-zinc-800 group-hover:text-yellow-400 uppercase ">
+                            Creación de contenido
+                        </h3>
+                    </div>
+                    <div className="group md:col-span-1 bg-zinc-900  p-6 border border-white/5 hover:bg-yellow-400 transition-all">
+                        <p className="text-yellow-500 group-hover:text-zinc-900 mb-4" >
+                            03 / Servicios Digitales
+                        </p>
+                        <h3 className="text-2xl font-bold italic text-yellow-300 group-hover:text-zinc-800 uppercase ">
+                            Campañas de meta ads
+                        </h3>
+                    </div>
                 </div>
             </div>
             <div className='bg-zinc-950'>
