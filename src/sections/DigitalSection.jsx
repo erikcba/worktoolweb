@@ -88,11 +88,11 @@ const DigitalSection = () => {
                         <p className='text-left text-zinc-300 selection:bg-amber-300 selection:text-black mt-4 text-xl'>
                             Se diseña, se posiciona y se escala con estrategia. <br /> Una agencia aporta la vision global, la experiencia y las herramientas que tu marca necesita para crecer.
                         </p>
-                        <div className='bg-yellow-300/80 selection:bg-amber-300 selection:text-black p-4 mt-10 md:mt-6'>
-                            <p className='text-zinc-900 font-medium text-lg'>
+                        <div className='bg-yellow-400/5 border border-yellow-400 selection:bg-amber-300 selection:text-black p-4 mt-10 md:mt-6'>
+                            <p className='text-zinc-300 font-medium text-lg'>
                                 No gestionamos redes.
                             </p>
-                            <p className='text-black text-xl font-bold '>
+                            <p className='text-yellow-400 text-xl font-bold '>
                                 Construimos marcas con autoridad, impacto y resultados reales.
                             </p>
                         </div>
