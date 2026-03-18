@@ -1,5 +1,6 @@
 import React from 'react'
-import heroImage from '../assets/hero-img.png'
+import heroImage from '../assets/hero-vid-dskt.mov'
+import heroImageMob from '../assets/hero-video-mobile.mp4'
 
 const Hero = () => {
     return (
@@ -29,7 +30,8 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <img src={heroImage} alt="Hero Image" className="w-full h-full object-cover object-[50%_42%]  " />
+            <video src={heroImage} autoPlay loop muted className="w-full h-full object-cover object-[50%_42%] sm:block hidden "></video>
+            <video src={heroImageMob} autoPlay loop muted className="w-full h-full object-cover object-[50%_42%] block sm:hidden "></video>
         </div>
     )
 }
