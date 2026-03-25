@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className='hidden lg:flex flex-col'>
                             <p className='text-left text-lg text-white py-10 font-gabarito'>
                                 Marketing, Branding, Social Media y Stands. <br />
-                                WorkTool. <br />
+                                Work Tool. <br />
                                 Todos los derechos reservados
                             </p>
                             <img src={logo} alt="Logo Work Tool" className="w-48 h-32 mt-4" />

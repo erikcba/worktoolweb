@@ -42,7 +42,7 @@ const Somos = () => {
                 <div className='flex flex-col w-full px-6 md:px-0 gap-4 selection:bg-amber-300 selection:text-black'>
                     <p className='text-yellow-400 text-sm uppercase self-start md:self-center font-medium font-gabarito'>Sobre nosotros</p>
                     <h1 className='text-left md:text-center font-gabarito uppercase self-start md:self-center text-4xl md:text-5xl font-bold text-white'>
-                        Somos <span className='text-yellow-300'>WorkTool</span>
+                        Somos <span className='text-yellow-300'>Work Tool</span>
                     </h1>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-center gap-8 px-6 md:px-0 py-14 md:py-20'>

@@ -38,7 +38,7 @@ const servicios = [
 const Servicios = () => {
 
     return (
-        <div className="bg-zinc-950 text-white pt-20 md:pt-0">
+        <div id="servicios" className="bg-zinc-950 text-white pt-20 md:pt-0">
             {/* Título Estático */}
             <div className="flex flex-col items-center justify-center selection:bg-amber-300 selection:text-black gap-4 px-6 md:px-0">
                 <p className='text-yellow-400 text-sm uppercase self-start md:self-center font-medium font-gabarito'>Nuestros servicios</p>

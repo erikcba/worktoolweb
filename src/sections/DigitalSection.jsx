@@ -39,7 +39,7 @@ const DigitalSection = () => {
 
                     {/* 04 - Influencers (Desktop: Gris | Mobile: Amarillo) */}
                     <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-yellow-400 md:bg-zinc-900 hover:bg-zinc-900 md:hover:bg-yellow-400">
-                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">03 / Servicios Digitales</p>
+                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">04 / Servicios Digitales</p>
                         <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-zinc-800 md:text-yellow-300 group-hover:text-yellow-400 md:group-hover:text-zinc-800">
                             Gestión de influencers
                         </h3>
@@ -47,7 +47,7 @@ const DigitalSection = () => {
 
                     {/* 05 - Web (Desktop: Amarillo | Mobile: Gris) */}
                     <div className="group md:col-span-2 p-6 border border-white/5 transition-all bg-zinc-900 md:bg-yellow-400 hover:bg-yellow-400 md:hover:bg-zinc-900">
-                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">02 / Servicios Digitales</p>
+                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">05 / Servicios Digitales</p>
                         <h3 className="text-3xl md:text-4xl font-bold italic uppercase text-yellow-300 md:text-zinc-800 group-hover:text-zinc-800 md:group-hover:text-yellow-400">
                             Desarrollo Web
                         </h3>
@@ -55,7 +55,7 @@ const DigitalSection = () => {
 
                     {/* 06 - Redes (Desktop: Amarillo | Mobile: Amarillo) */}
                     <div className="group md:col-span-2 md:row-span-2 p-8 border border-white/5 transition-all bg-yellow-400 hover:bg-zinc-900">
-                        <p className="mb-4 text-zinc-900 group-hover:text-yellow-500">01 / Servicios Digitales</p>
+                        <p className="mb-4 text-zinc-900 group-hover:text-yellow-500">06 / Servicios Digitales</p>
                         <h3 className="text-3xl md:text-8xl font-black italic uppercase text-zinc-800 group-hover:text-yellow-400">
                             Gestión de redes sociales
                         </h3>
@@ -63,7 +63,7 @@ const DigitalSection = () => {
 
                     {/* 07 - Contenido (Desktop: Amarillo | Mobile: Gris) */}
                     <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-zinc-900 md:bg-yellow-400 hover:bg-yellow-400 md:hover:bg-zinc-900">
-                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">03 / Servicios Digitales</p>
+                        <p className="mb-4 text-yellow-500 md:text-zinc-900 group-hover:text-zinc-900 md:group-hover:text-yellow-500">07 / Servicios Digitales</p>
                         <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-yellow-300 md:text-zinc-800 group-hover:text-zinc-800 md:group-hover:text-yellow-400">
                             Creación de contenido
                         </h3>
@@ -71,7 +71,7 @@ const DigitalSection = () => {
 
                     {/* 08 - Meta Ads (Desktop: Gris | Mobile: Amarillo) */}
                     <div className="group md:col-span-1 p-6 border border-white/5 transition-all bg-yellow-400 md:bg-zinc-900 hover:bg-zinc-900 md:hover:bg-yellow-400">
-                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">03 / Servicios Digitales</p>
+                        <p className="mb-4 text-zinc-900 md:text-yellow-500 group-hover:text-yellow-500 md:group-hover:text-zinc-900">08 / Servicios Digitales</p>
                         <h3 className="text-3xl md:text-2xl font-bold italic uppercase text-zinc-800 md:text-yellow-300 group-hover:text-yellow-400 md:group-hover:text-zinc-800">
                             Campañas de meta ads
                         </h3>

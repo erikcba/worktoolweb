@@ -23,9 +23,6 @@ const Navbar = () => {
                     <a href='#contacto' className='hover:text-amber-300 hover:scale-105 transition-all flex items-center ease-in-out h-full'>
                         Contacto
                     </a>
-                    <a href='#' className='hover:text-amber-300 hover:scale-105 transition-all flex items-center ease-in-out h-full'>
-                        Sumante a WorkTool
-                    </a>
                 </ul>
             </div>
         </nav>
